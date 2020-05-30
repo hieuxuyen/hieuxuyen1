@@ -1,47 +1,28 @@
-#bai1
-lớp  Cricle ( đối tượng ):
-    def  __init__ ( tự , r ):
-        tự . r = r
-     khu vực def ( tự ):
-         tự trở về . r ** 2 * 3.14
-r = int ( đầu vào ( "nhap ban kinh:" ))
-c = Cricle ( r )
-in ( "dien tich hinh tron ​​la:" , c . area ())
-
-#bai2
-lớp  hinhchunhat ( đối tượng ):
-    def  __init__ ( tự , a , b ):
-        tự . a = a
-        tự . b = b
-    def  dien_tich ( tự ):
-
-#bai3
-lớp  Nguoi ( đối tượng ):
-    def  getGender ( tự ):
-        trả lại  "Unkn"
-
-lớp  Nam ( Nguoi ):
-    def  getGender ( tự ):
-        trả lại  "Nam"
-lớp  Nu ( Nguoi ):
-    def  getGender ( tự ):
-        trả lại  "Nu"
-    
-a  Nam =  Nam ()
-aNu  =  Nu ()
-in ( a Nam . getGender ())
-in ( aNu . getGender ())
-
-#bai7
-lớp  Cricle ( đối tượng ):
-    def  __init__ ( tự , r ):
-        tự . r = r
-    def  chu_vi ( tự ):
-        trả lại  2 * tự . r * 3,14
-    def  dien_tich ( tự ):
-         tự trở về . r ** 2 * 3.14
-r = int ( đầu vào ( "nhap ban kinh:" ))
-c = Cricle ( r )
-in ( "chu vi hinh tron ​​la:" , c . chu_vi ())
-in ( "dien tich hinh tron ​​la:" , c . dien_tich ())
-
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-03-25 08:37:48 AM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjs2UzQ3UzVEMTM3U0VYRzE7MjAyMC0wMy0xNzsxMDozMToyMiBBTTszNTkz"/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjs2UzQ3UzVEMTM3U0VYRzE7MjAyMC0wMy0yNTswODozNzo0OCBBTTs1OzM3MjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text=""/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <for variable="n" start="99" end="1" direction="dec" step="1">
+                <if expression="n==1">
+                    <then>
+                        <output expression="&quot;one bottle of beer on the wall&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;bottles of beer on the wall&quot;" newline="True"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
